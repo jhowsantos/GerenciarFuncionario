@@ -3,10 +3,10 @@ package main;
 public class Funcionario {
 	private String nome;
 	private String cargo;
-	private double salario;
+	private int salario;
 	private int tempoDeEmpresa;
 	
-	public Funcionario (String nome, String cargo, double salario, int tempoDeEmpresa){
+	public Funcionario (String nome, String cargo, int salario, int tempoDeEmpresa){
 		this.nome = nome;
 		this.cargo = cargo;
 		this.salario = salario;
@@ -29,11 +29,11 @@ public class Funcionario {
 		this.cargo = cargo;
 	}
 
-	public double getSalario() {
+	public int getSalario() {
 		return salario;
 	}
 
-	public void setSalario(double salario) {
+	public void setSalario(int salario) {
 		this.salario = salario;
 	}
 
